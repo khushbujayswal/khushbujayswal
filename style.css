@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+#home
+{
+  width: 100%;
+  height: 100vh;
+  background-image: url(1.jpg);
+  background-size: cover;
+  background-position: top;
+
+}
+
+.homemain 
+{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav
+{
+  width: 100%;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  position: fixed;
+  top: 0;
+}
+main
+{
+  max-width: 1100px;
+  /*padding: 10px;*/
+  /*background: pink;*/
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head 
+{
+  letter-spacing: 1px;
+
+}
+.ulist li 
+{
+  display: inline-block;
+  padding: 8px;
+}
+.ulist li a 
+{
+  color: #fff;
+
+}
+.chng
+{
+  color: lightgrey;
+  letter-spacing: 1px;
+
+}
+.brd 
+{
+  border: 2px solid grey;
+  border-radius: 30px;
+  padding: 10px 14px;
+}
+.fab 
+{
+  font-size: 20px!important;
+  
+}
+input[type=checkbox] ,#lchk
+{
+  display: none;
+}
+
+/*---------------------------------------------------------*/
+.center 
+{
+  max-width: 650px;
+  width: 100%;
+  padding: 35px;
+  /*background: royalblue;*/
+  text-align: center;
+  color: #fff;
+}
+.homehead 
+{
+  font-size: 38px;
+  letter-spacing: 1;
+}
+.homepara
+{
+  font-size: 14px;
+  word-spacing: 2px;
+  color: lightgrey;
+}
+
+.btn 
+{
+  width: 180px;
+  padding: 12px;
+  background: linear-gradient(115deg,purple,blue);
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 25px;
+  text-align: center;
+  color: #fff;
+}
+
+/*--------------------------------------------------------------------*/
+ .homecontainer
+ {
+  width: 100%;
+  /*padding: 35px;*/
+  background: coral;
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+ .homepart
+ {
+  width: 50%;
+  padding: 50px;
+ background-image: url(12.jpg);
+ }
+ .hometwo
+ {
+  background-image: url(13.jpg);
+  background-size: cover;
+  background-position: center;
+ }
+
+.homepartpara
+{
+  color: lightgrey;
+  line-height:1.7;
+}
+
+.homebtn
+{
+  width: 180px;
+  padding: 12px;
+  background: linear-gradient(115deg,purple,blue);
+  margin-top: 30px;
+  border-radius: 25px;
+  text-align: center;
+  color: #fff;
+}
+#offer 
+{
+  width: 100%;
+  padding: 60px;
+  /*background: coral;*/
+}
+
+.offerhead
+{
+  text-align: center;
+  letter-spacing: 1px;
+}
+.offerbox
+{
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+  /*background: teal;*/
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.offerpart
+{
+  width: calc(50% - 10px);
+  padding: 10px;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ficon 
+{
+  width: 30%;
+  padding: 10px;
+  /*background: gold;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fcc
+{
+  font-size: 78px !important;
+  color: lightgrey;
+}
+
+.paraoffer 
+{
+  width: 70%;
+  padding: 10px;
+  /*background: #f2f2f2;*/
+}
+.mt 
+{
+  margin-top: 10px;
+  line-height: 1.6;
+
+}
+
+/*--------------------------------------------------------------------*/
+
+.qtr
+{
+  width: 100%;
+  background-image: url(4.png);
+  padding: 80px;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qtrbox
+{
+  max-width: 600px;
+  width: 100%;
+  padding: 25px;
+  /*background: pink;*/
+  text-align: center;
+}
+
+.qtrhead
+{
+  letter-spacing: 2px;
+  font-size: 34px;
+  color: #fff;
+}
+
+.qtrpara
+{
+  margin-top: 15px;
+  line-height: 1.6;
+  color: #fff;
+
+}
+
+/*-------------------------------------------------------------------*/
+#about 
+{
+  width: 100%;
+  padding: 30px;
+  background-image: url(11.jpg);
+  background-size: cover;
+}
+
+.abtbox
+{
+  max-width: 1200px;
+  width: 100%;
+  padding: 10px;
+  /* background: coral; */
+ margin: auto;
+  text-align: center;
+  color: black;
+}
+.abtpara
+{
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.abtcontainer
+{
+  max-width: 1200px;
+  width: 100%;
+  padding: 50px;
+  /*background: teal;*/
+ margin: auto;
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+
+.abtpart
+{
+  width: calc(25% - 10px);
+  padding: 10px;
+  /*background: grey;*/
+  text-align: center;
+  color: black;
+}
+
+.abtimg
+{
+  width: 140px;
+  height: 140px;
+  /* background:black; */
+  margin: auto;
+  border-radius: 50%;
+  padding: 5px;
+}
+.abtimg img 
+{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.abthead 
+{
+  line-height: 1.4;
+  margin-top: 5px;
+  font-size: 14px;
+  color: black;
+}
+.hh 
+{
+  margin-top:10px;
+}
+
+ #map 
+ {
+  width: 100%;
+  height: 80vh;
+  background-image:url(10.png);
+  background-size: cover;
+  background-position: center;
+ }
+
+/*-------------------------------------------------------------*/
+
+  #ftr 
+  {
+    width: 100%;
+    padding: 50px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ftrpara
+  {
+    width: 50%;
+    color: black;
+  }
+ /*----------------------------------------------------------------*/
+    @media(max-width: 920px)
+    {
+      .abtpart
+      {
+        width: calc(50% - 10px);
+      }
+    }
+
+/*--------------------------------------------------------------------*/
+ 
+ @media(max-width: 820px)
+ {
+
+  main 
+  {
+    
+    flex-direction:column;
+    text-align: center;
+
+  }
+
+  .offerpart
+  {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  
+ }
+
+
+/*---------------------------------------------------------------------*/
+@media(max-width: 760px)
+{
+  
+  .homehead 
+  {
+    font-size: 32px;
+  }
+
+  .homepart 
+  {
+    width: 100%;
+  }
+
+  .qtr
+  {
+    padding: 30px;
+  }
+  .abtpart
+  {
+    width: 100%;
+  }
+
+  #lchk
+  {
+    display: block;
+    cursor: pointer;
+  }
+  main 
+  {
+    padding: 10px;
+    flex-direction: row;
+  }
+  .ulist
+  {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    transition: 0.7s;
+
+  }
+
+  .ulist li 
+  {
+    display: block;
+    height: 50px;
+  }
+  .brd 
+  {
+    border: none;
+  }
+
+  #chk:checked ~ .ulist
+  {
+    left: 0;
+  }
+
+}
+/*--------------------------------------------------------------------*/
+@media(max-width: 620px)
+{
+  .center
+  {
+    padding: 20px;
+  }
+ 
+ .paraoffer 
+{
+  width: 100%;
+}
+}
